@@ -1,28 +1,36 @@
+#!/bin/bash
+
 echo "Configuring and building Thirdparty/DBoW2 ..."
 
 cd Thirdparty/DBoW2
-mkdir build
+mkdir -p build
 cd build
-cmake .. -DCMAKE_BUILD_TYPE=Release
-make -j
+cmake .. -DCMAKE_BUILD_TYPE=Release \
+    -DCMAKE_C_COMPILER=/usr/bin/gcc-7 \
+    -DCMAKE_CXX_COMPILER=/usr/bin/g++-7
+make -j$(nproc)
 
 cd ../../g2o
 
 echo "Configuring and building Thirdparty/g2o ..."
 
-mkdir build
+mkdir -p build
 cd build
-cmake .. -DCMAKE_BUILD_TYPE=Release
-make -j
+cmake .. -DCMAKE_BUILD_TYPE=Release \
+    -DCMAKE_C_COMPILER=/usr/bin/gcc-7 \
+    -DCMAKE_CXX_COMPILER=/usr/bin/g++-7
+make -j$(nproc)
 
 cd ../../Sophus
 
 echo "Configuring and building Thirdparty/Sophus ..."
 
-mkdir build
+mkdir -p build
 cd build
-cmake .. -DCMAKE_BUILD_TYPE=Release
-make -j
+cmake .. -DCMAKE_BUILD_TYPE=Release \
+    -DCMAKE_C_COMPILER=/usr/bin/gcc-7 \
+    -DCMAKE_CXX_COMPILER=/usr/bin/g++-7
+make -j$(nproc)
 
 cd ../../../
 
@@ -34,7 +42,9 @@ cd ..
 
 echo "Configuring and building ORB_SLAM3 ..."
 
-mkdir build
+mkdir -p build
 cd build
-cmake .. -DCMAKE_BUILD_TYPE=Release
-make -j4
+cmake .. -DCMAKE_BUILD_TYPE=Debug \
+    -DCMAKE_C_COMPILER=/usr/bin/gcc-7 \
+    -DCMAKE_CXX_COMPILER=/usr/bin/g++-7
+make -j$(nproc)

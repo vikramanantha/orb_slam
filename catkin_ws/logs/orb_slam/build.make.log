@@ -1,0 +1,53 @@
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target tf2_msgs_generate_messages_lisp
+[  0%] Built target tf2_msgs_generate_messages_nodejs
+[  0%] Built target tf2_msgs_generate_messages_py
+[  0%] Built target tf2_msgs_generate_messages_eus
+[  0%] Built target actionlib_msgs_generate_messages_py
+[  0%] Built target tf2_msgs_generate_messages_cpp
+[  0%] Built target actionlib_msgs_generate_messages_lisp
+[  0%] Built target actionlib_msgs_generate_messages_eus
+[  0%] Built target actionlib_generate_messages_py
+[  0%] Built target actionlib_generate_messages_lisp
+[  0%] Built target actionlib_msgs_generate_messages_cpp
+[  0%] Built target actionlib_generate_messages_nodejs
+[  0%] Built target actionlib_generate_messages_eus
+[  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[  0%] Built target rosgraph_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target tf_generate_messages_eus
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+[  0%] Built target roscpp_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target geometry_msgs_generate_messages_eus
+[  0%] Built target roscpp_generate_messages_eus
+[  0%] Built target roscpp_generate_messages_nodejs
+[  0%] Built target tf_generate_messages_lisp
+[  0%] Built target roscpp_generate_messages_lisp
+[  0%] Built target actionlib_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[  0%] Built target tf_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target sensor_msgs_generate_messages_py
+[  0%] Built target tf_generate_messages_nodejs
+[  0%] Built target sensor_msgs_generate_messages_cpp
+[  0%] Built target sensor_msgs_generate_messages_eus
+[  0%] Built target tf_generate_messages_cpp
+[  0%] Built target sensor_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target sensor_msgs_generate_messages_nodejs
+[  0%] Built target roscpp_generate_messages_cpp
+[  0%] Built target actionlib_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[ 16%] [32m[1mLinking CXX executable /ORB_SLAM3/catkin_ws/devel/.private/orb_slam/lib/orb_slam/TesterBester[0m
+[ 50%] [32m[1mLinking CXX executable /ORB_SLAM3/catkin_ws/devel/.private/orb_slam/lib/orb_slam/Mono_Inertial[0m
+[ 50%] [32m[1mLinking CXX executable /ORB_SLAM3/catkin_ws/devel/.private/orb_slam/lib/orb_slam/Mono[0m
+[ 66%] Built target TesterBester
+[ 83%] Built target Mono
+/usr/bin/ld: warning: libopencv_imgproc.so.4.4, needed by /ORB_SLAM3/catkin_ws/src/orb_slam/../../../lib/libORB_SLAM3.so, may conflict with libopencv_imgproc.so.3.2
+/usr/bin/ld: warning: libopencv_core.so.4.4, needed by /ORB_SLAM3/catkin_ws/src/orb_slam/../../../lib/libORB_SLAM3.so, may conflict with libopencv_core.so.3.2
+[100%] Built target Mono_Inertial
