@@ -90,3 +90,8 @@ my_settings.txt
 borrar/*
 
 */ExecMean.txt
+
+
+build/
+catkin_ws/build/
+catkin_ws/devel/

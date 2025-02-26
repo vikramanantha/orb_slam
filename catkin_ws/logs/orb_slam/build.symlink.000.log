@@ -1,6 +1,0 @@
-Symlinking /ORB_SLAM3/catkin_ws/devel/share/orb_slam/cmake/orb_slamConfig-version.cmake
-Symlinking /ORB_SLAM3/catkin_ws/devel/share/orb_slam/cmake/orb_slamConfig.cmake
-Symlinking /ORB_SLAM3/catkin_ws/devel/lib/orb_slam/Mono_Inertial
-Symlinking /ORB_SLAM3/catkin_ws/devel/lib/orb_slam/Mono
-Symlinking /ORB_SLAM3/catkin_ws/devel/lib/orb_slam/TesterBester
-Symlinking /ORB_SLAM3/catkin_ws/devel/lib/pkgconfig/orb_slam.pc

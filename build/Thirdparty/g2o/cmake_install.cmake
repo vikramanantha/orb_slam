@@ -1,4 +1,4 @@
-# Install script for directory: /ORB_SLAM3/Thirdparty/g2o
+# Install script for directory: /home/sethgi/orbslam/orb_slam/Thirdparty/g2o
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

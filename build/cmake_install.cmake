@@ -1,4 +1,4 @@
-# Install script for directory: /ORB_SLAM3
+# Install script for directory: /home/sethgi/orbslam/orb_slam
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/ORB_SLAM3/build/Thirdparty/g2o/cmake_install.cmake")
+  include("/home/sethgi/orbslam/orb_slam/build/Thirdparty/g2o/cmake_install.cmake")
 
 endif()
 
@@ -51,5 +51,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/ORB_SLAM3/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/sethgi/orbslam/orb_slam/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
