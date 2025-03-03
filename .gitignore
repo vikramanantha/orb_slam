@@ -78,8 +78,8 @@ LBA_Stats.txt
 LocalMapTimeStats.txt
 TrackLocalMapStats.txt
 TrackingTimeStats.txt
-time*
-Time*
+time*.txt
+Time*.txt
 Table_Euroc
 Table_TUMVI_rooms/
 *.pyc
@@ -92,6 +92,6 @@ borrar/*
 */ExecMean.txt
 
 
-build/
+**/build/*
 catkin_ws/build/
 catkin_ws/devel/
